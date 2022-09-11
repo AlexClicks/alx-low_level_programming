@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
- * main - Entry points
- * 
- * Return : Always returns 0
- */
+* main - Entry points
+* 
+* Return: Always returns 0
+*/
 int main(void)
 {
 	char a;
