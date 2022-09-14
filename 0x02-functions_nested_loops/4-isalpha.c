@@ -4,7 +4,7 @@
  *
  * @c: character compare
  *
- * return: Returns 1 if condition is true and 2 otherwise
+ * Return: Returns 1 if condition is true and 2 otherwise
  *
  */
 int _isalpha(int c)
