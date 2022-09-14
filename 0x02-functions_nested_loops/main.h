@@ -62,4 +62,10 @@ int print_last_digit(int);
  * Return: Return all the minutes of the day
  */
 void jack_bauer(void);
+
+/**
+ * times_table - prints the 9 times table
+ * Return: Returns the multiples of a given variable
+ */
+void times_table(void);
 #endif
