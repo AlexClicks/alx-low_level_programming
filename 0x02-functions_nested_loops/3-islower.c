@@ -2,7 +2,7 @@
 /**
  * _islower - main function
  *
- * #c: charter to compare
+ * #@c: charter to compare
  *
  * Return: 1 if true, 0 if false
  *
