@@ -7,8 +7,10 @@
  * Return: 1 or 0
  * 
  */
-void print_alphabet(void);
+int _putchar (char c);
 /**
  * print_alphabet - A function to print the alphabets
  */
+
+void print_alphabet(void);
 #endif
