@@ -6,7 +6,7 @@
  * @n: the number from were the program will start printing
  * Return: Return all the intergers from n to 98
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	int i;
 	
@@ -26,7 +26,7 @@ int print_to_98(int n)
 		{
 			printf("%d", i);
 
-			if ( != 98)
+			if (i != 98)
 			{
 				printf(", ");
 			}
@@ -34,4 +34,3 @@ int print_to_98(int n)
 	}
 	printf("\n");
 }
-
