@@ -44,4 +44,11 @@ int _isalpha(int c);
  */
 int print_sign(int n);
 
+/**
+ * _abs - Convert any number to its absolute value
+ * @n:character to use in this function
+ * Return: Returns either n or -n
+ */
+int _abs(int);
+
 #endif
