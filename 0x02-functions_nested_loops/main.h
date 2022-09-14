@@ -61,5 +61,5 @@ int print_last_digit(int);
  * vmjack_bauer - prints every minutes of vmjack_bauer's day
  * Return: Return all the minutes of the day
  */
-
+void jack_bauer(void);
 #endif
