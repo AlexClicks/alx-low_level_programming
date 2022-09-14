@@ -37,5 +37,11 @@ int _islower(int c);
  * Return: returns 1 or 0
  */
 int _isalpha(int c);
+/**
+ * print_sign - Print the sign of any number
+ * @n: character to use in the function
+ * Return: Returns either 9 or 1
+ */
+int print_sign(int n);
 
 #endif
