@@ -21,5 +21,5 @@ void print_alphabet(void);
  * Return: Returns the alphabes printed
  *
  */
-void print_alphabest_x10(void);
+void print_alphabet_x10(void);
 #endif
