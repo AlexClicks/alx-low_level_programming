@@ -10,6 +10,8 @@
 int _putchar (char c);
 /**
  * print_alphabet - A function to print the alphabets
+ *
+ * Return: Returns all the alphabet in small letter
  */
 
 void print_alphabet(void);
