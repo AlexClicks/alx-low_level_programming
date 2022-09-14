@@ -1,17 +1,14 @@
-#include <stdio.h>
+#ifndef _MAIN_
+#define _MAIN_
 /**
- * main - Entry points
+ * _putchar - Write character c to the std
+ * @c: parameter to compare
  *
- * Return: Always Returns 0
+ * Return: 1 or 0
  * 
  */
-void print_alphabet()
-{
-	int ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
-	putchar('\n');
-}
+void print_alphabet(void);
+/**
+ * print_alphabet - A function to print the alphabets
+ */
+#endif
