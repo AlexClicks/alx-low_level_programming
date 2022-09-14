@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table - times table functions
- * Return: Returns the times table of numbers
+ * Return: Returns the times table of numbers up to 9
  */
 void times_table(void)
 {
@@ -27,7 +27,7 @@ void times_table(void)
 			}
 			else
 			{
-				_pitchar(',');
+				_putchar(',');
 				_putchar(' ');
 				_putchar(p / 10 + '0');
 				_putchar(p % 10 + '0');
