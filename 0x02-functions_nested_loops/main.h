@@ -68,4 +68,10 @@ void jack_bauer(void);
  * Return: Returns the multiples of a given variable
  */
 void times_table(void);
+
+/**
+ * add - add two number
+ * return the sum of two number
+ */
+int add(int, int);
 #endif
