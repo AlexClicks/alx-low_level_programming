@@ -15,4 +15,11 @@ int _putchar (char c);
  */
 
 void print_alphabet(void);
+/**
+ * print_alphabet_x10 - Prints the alphabets 10 times
+ *
+ * Return: Returns the alphabes printed
+ *
+ */
+void print_alphabest_x10(void);
 #endif
