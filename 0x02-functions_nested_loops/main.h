@@ -74,4 +74,10 @@ void times_table(void);
  * return the sum of two number
  */
 int add(int, int);
+
+/**
+ * print_to_98
+ * Return: Returns all intergers from n to 98
+ */
+void print_to_98(int n);
 #endif
