@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _islower - Entry point
+ *  _isupper - Entry point
  *
  * @c: Character to be checked
  *
