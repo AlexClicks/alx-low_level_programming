@@ -7,5 +7,12 @@
  * Return: Returns 1 or 0
  */
 int _putchar (char c);
+/**
+ * _isupper - Function for returning characters in upper case
+ * @c: character to be tested
+ *
+ * Return: Return the lower case of a giben character
+ */
+int _isupper(int c);
 
 #endif
