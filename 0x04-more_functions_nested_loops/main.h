@@ -23,4 +23,13 @@ int _isupper(int c);
  */
 int _isdigit(int c);
 
+/**
+ * mul - Function that retun the multipleof two numbers
+ *
+ * @a: Character to use
+ *
+ * @b: Another character to use
+ */
+
+int mul(int a, int b);
 #endif
