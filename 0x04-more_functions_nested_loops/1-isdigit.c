@@ -5,6 +5,7 @@
  * @c: Character to compare
  *
  * Return: Either return 0 or 
+ *
  */
 int _isdigit(int c)
 {
