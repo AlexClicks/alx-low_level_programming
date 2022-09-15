@@ -15,4 +15,13 @@ int _putchar (char c);
  */
 int _isupper(int c);
 
+/**
+ * _isdigit - Function for checking if a digit is in a range of values
+ *
+ * @c: Character that is going to be checked
+ *
+ * Return: Either return 0 or 1
+ */
+int _isdigit(int c);
+
 #endif
