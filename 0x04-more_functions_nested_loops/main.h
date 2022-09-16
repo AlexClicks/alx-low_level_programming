@@ -77,4 +77,11 @@ void print_diagonal(int n);
  * Return: Return square formed by #
  */
 void print_square(int size);
+
+/**
+ * print_triangle - prints the triangle
+ * 
+ * Return: Retuns the shape
+ */
+void print_triangle(int size);
 #endif
