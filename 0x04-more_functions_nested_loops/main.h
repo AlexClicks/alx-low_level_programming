@@ -41,4 +41,13 @@ int mul(int a, int b);
  */
 
 void print_numbers(void);
+/**
+ * print_most_numbers - Function that print a range with some exclusion
+ *
+ * Return: Returns the range of numbers
+ */
+
+void print_most_numbers(void);
+
+
 #endif
