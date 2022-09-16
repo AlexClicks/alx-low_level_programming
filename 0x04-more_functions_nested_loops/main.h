@@ -34,5 +34,11 @@ int _isdigit(int c);
  */
 
 int mul(int a, int b);
+/**
+ * print_numbers - Function that print a range of numbers
+ *
+ * Return: Returns the range of numbers
+ */
 
+void print_numbers(void);
 #endif
