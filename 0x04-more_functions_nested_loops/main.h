@@ -29,7 +29,10 @@ int _isdigit(int c);
  * @a: Character to use
  *
  * @b: Another character to use
+ *
+ * Return: Returns the sum of two number
  */
 
 int mul(int a, int b);
+
 #endif
