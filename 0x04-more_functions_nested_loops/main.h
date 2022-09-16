@@ -70,4 +70,11 @@ void print_line(int n);
  */
 
 void print_diagonal(int n);
+
+/**
+ * print_square - prints square of #
+ *
+ * Return: Return square formed by #
+ */
+void print_square(int size);
 #endif
