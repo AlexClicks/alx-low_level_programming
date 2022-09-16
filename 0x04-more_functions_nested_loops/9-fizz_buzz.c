@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - check the code for the main school
  *
- * Return: Always return 0
+ * Return: void.
  */
+
 int main(void)
 {
 	int i = 1;
