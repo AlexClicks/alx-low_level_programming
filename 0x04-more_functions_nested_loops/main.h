@@ -55,4 +55,13 @@ void print_most_numbers(void);
  * Return: Returns the numbers
  */
 void more_numbers(void);
+
+/**
+ * print_line - print straight line
+ *
+ * Return: Returns the straight line formed
+ */
+void print_line(int n);
+
+
 #endif
