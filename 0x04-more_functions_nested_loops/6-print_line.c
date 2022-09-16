@@ -1,16 +1,16 @@
 #include "main.h"
+
 /**
- * print_line - prints the line formed by underscore
- * @n: Integers to print straight line
+ * print_line - Prints a line formed by underscore
  *
- * Return: Return a straight line
- *
+ * @n: integer to print underscore
  */
+
 void print_line(int n)
 {
 	int i;
 
-	for (i = 0; i <= n; i++)
+	for (i = 0; i < n; i++)
 	{
 		_putchar('_');
 	}
