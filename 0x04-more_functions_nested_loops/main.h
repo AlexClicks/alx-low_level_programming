@@ -49,5 +49,10 @@ void print_numbers(void);
 
 void print_most_numbers(void);
 
-
+/**
+ * more_numbers - Prints multiples of numbers
+ *
+ * Return: Returns the numbers
+ */
+void more_numbers(void);
 #endif
