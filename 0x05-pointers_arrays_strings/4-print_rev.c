@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - prints a stting in the reverse 
+ * print_rev - prints a stting in the reverse
  * @s: point obtained from the main function
  * Return: Always 0
  */
@@ -16,7 +16,7 @@ void print_rev(char *s)
 
 	while (counter)
 	{
-		_putchar(s[counter -1]);
+		_putchar(s[counter - 1]);
 		counter--;
 	}
 	_putchar(10);
