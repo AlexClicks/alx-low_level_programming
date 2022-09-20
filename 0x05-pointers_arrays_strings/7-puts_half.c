@@ -5,7 +5,7 @@
  * Return: Return the second half of the string
  */
 
-puts_half(char *str)
+void puts_half(char *str)
 {
 	int length;
 	int i;
@@ -17,7 +17,7 @@ puts_half(char *str)
 
 	n = (length - 1) / 2;
 
-	for (i = n + 1; str[i] != '\0')
+	for (i = n + 1; str[i] != '\0'; i++)
 	{
 		_putchar(str[i]);
 	}
