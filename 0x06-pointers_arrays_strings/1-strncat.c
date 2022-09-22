@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _strncat - function that concatenate strings if the size of first one < n
