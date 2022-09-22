@@ -10,20 +10,28 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int length;
-	int j;
-	length = 0;
-	char *deck;
+	int l = 0;
+	int a = 0;
 
-	while (dest[length] != '\0')
+	while (dest[a] != '\0')
 	{
-		length++; 
+		a++
 	}
-	for (j = 0; src[j] != '\0', sizeof(deck) <= n; j++, length++)
+
+	while (src[l] != '\0' && n > l)
 	{
-		dest[length] = src[j];
-		deck[j] = src[j];
+		dest[a] = src[l];
+
+		a++;
+		l++;
+
 	}
-	dest[length] = '\0'; 
+
+	if (n > l)
+	{
+		dest[a] = '\0';
+	}
 	return (dest);
-}	
+}
+
+	
