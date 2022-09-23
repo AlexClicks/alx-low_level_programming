@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * cap_string -Function that returns the value of a string in capital lether
  * @s: input string.
  * Return: the pointer to s.
  */
+
 char *cap_string(char *s)
 {
 	int count = 0;
