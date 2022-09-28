@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 3-factorial.c - Function that prints the factorial of a number
+ * factorial - Function that prints the factorial of a number
  * @n: The number to be returned its factorial
  * Return: Returns an interger
  */
@@ -13,7 +13,7 @@ int factorial(int n)
 	}
 	if (n <= 1)
 	{
-		return(1);
+		return (1);
 	}
-	return (n * factorial(n-1));
+	return (n * factorial(n - 1));
 }
