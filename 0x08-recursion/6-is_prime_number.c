@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * helper - it helps me
+ * test - it helps me
  * @j: helper int
  * @n: integer I'm testing
  * Return: value
  */
-int test(int i, int n)
+int test(int j, int n)
 {
-	if (n % i == 0 && n != i)
+	if (n % j == 0 && n != j)
 	{
 		return (0);
 	}
-	if (n % i != 0 && i < n)
+	if (n % j != 0 && j < n)
 	{
-		return (test(i + 1, n));
+		return (test(j + 1, n));
 	}
 	return (1);
 }
@@ -26,11 +26,11 @@ int test(int i, int n)
  */
 int is_prime_number(int n)
 {
-	int i = 2;
+	int j = 2;
 
 	if (n < 2)
 	{
 		return (0);
 	}
-	return (test(i, n));
+	return (test(j, n));
 }
