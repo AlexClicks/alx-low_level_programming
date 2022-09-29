@@ -26,7 +26,7 @@ int length(char *s)
 
 int helper2(int i, char *s)
 {
-	if(*s)
+	if (*s)
 	{
 		if (*s != s[length(s) - i])
 		{
