@@ -1,9 +1,6 @@
 #include "main.h"
 
 
-
-
-
 /**
 
  * _strncpy - Function that copy one string to another one
@@ -17,9 +14,6 @@
  * Return: Resturns the value of dest
 
  */
-
-
-
 
 
 char *_strncpy(char *dest, char *src, int n)
