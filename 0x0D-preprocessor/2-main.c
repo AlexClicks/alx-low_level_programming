@@ -1,4 +1,7 @@
-#include <stdlib.h>
 #include <stdio.h>
 
-printf("This file is %s:\n", __FILE__);
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
