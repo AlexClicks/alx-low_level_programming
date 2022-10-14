@@ -1,5 +1,6 @@
+#include "variadic_functions.h"
 #include <stdarg.h>
-#include <stdio.h>
+
 /*
 *sum_them_all - Calculates the sum of allintegers
 *@n: The number of paramters passed to the function
@@ -10,7 +11,7 @@
 int sum_them_all(const unsigned int n, ...)
 {
   va_list ap;
-  int i, sum;
+  unsigned int i, sum;
 
   va_start (ap, n);      
   sum = 0;
